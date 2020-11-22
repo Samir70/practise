@@ -10,3 +10,5 @@ Also: I sometimes find that I am forgetting as much as I learn. So the things I 
 Uses Vue and GSAP, with animations to catch the eyes at the start and indicate clearly which lights are changing state when one is clicked. There is also a little animation at the end. 
 
 The first gsap.from() fires when the page is loaded. I did worry that Vue may not have put in place all the buttons by the time gsap fired, but it all went well. The other gsap commands are called within the Vue methods to react to user input or the puzzle being solved.
+
+[Click here](https://samir70.github.io/practise/lights-out.html) to play.
