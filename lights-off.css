@@ -1,0 +1,23 @@
+.light {
+    height: 10vmin;
+    width: 10vmin;
+    min-height: 40px;
+    min-width: 40px;
+    border: 2px solid white;
+}
+
+.lightOn {
+    background: blue;
+}
+
+.lightOff {
+    background: gray;
+}
+
+button:hover {
+    border: 2px solid red;
+}
+
+body {
+    text-align: center;
+}
