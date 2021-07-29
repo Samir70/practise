@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.letter-space {
+    font-size: xx-large;
+    color: blue;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#state-space {
+    min-width: 900px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.state-item {
+    display: inline;
+}
